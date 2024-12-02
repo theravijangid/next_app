@@ -26,8 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="p-4 border-b text-center">
+          Next app navbar
+        </div>
         {children}
       </body>
     </html>
